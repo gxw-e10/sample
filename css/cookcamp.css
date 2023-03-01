@@ -1,0 +1,92 @@
+/*---------------main----------------*/
+h1 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h2 {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+  border-bottom: 2px #906000 solid;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container ol {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.resipe-image {
+  width: 80%;
+  height: 80%;
+}
+
+/*------------------carousel----------------*/
+.carousel {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.image {
+  width: 100%;
+}
+
+.slick-slide {
+  height: auto;
+}
+
+.slick-prev {
+  left: 20px;
+}
+
+.slick-next {
+  right: 20px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
+  opacity: 1;
+}
+
+.slick-arrow {
+  z-index: 2;
+}
+
+/*-----------------modaal----------------*/
+#modal01,
+#modal02,
+#modal03,
+#modal04 {
+  display: none;
+}
+
+.modal-img {
+  width: 840px;
+  height: 650px;
+}
+
+
+/*---------------------footer-----------------------*/
+footer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.copyright {
+  text-align: center;
+  border-top: 2px #906000 solid;
+}
